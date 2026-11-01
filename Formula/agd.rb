@@ -1,8 +1,8 @@
 class Agd < Formula
   desc "Install, update and combine agentic setups from git repositories"
   homepage "https://github.com/Zejnilovic/agd"
-  url "https://github.com/Zejnilovic/agd/releases/download/v0.4.0/agd-0.4.0.tar.gz"
-  sha256 "be90b5febf276a0560def639d78797c0cfd08d24d1f13e4b613023d6a3382689"
+  url "https://github.com/Zejnilovic/agd/releases/download/v0.5.0/agd-0.5.0.tar.gz"
+  sha256 "c5270c94f70cd68429ddb9ba3d8f14b004a8f1cd815d09727c4dd2c7915facc2"
   license "MIT"
 
   def install
