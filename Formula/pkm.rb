@@ -1,14 +1,14 @@
 # Homebrew formula for pkm, in Zejnilovic/homebrew-tap. The Release workflow fills the url and the sha256 with
 # scripts/formula.sh from the tarball that make dist built, and pushes it to the tap. Here the sha256 stays a placeholder.
 class Pkm < Formula
-  desc "Command line for plain Markdown vaults: day pages, tasks, links and the close"
+  desc "Command-line tool for Markdown vaults: day pages, tasks, links and the close"
   homepage "https://zejnilovic.github.io/scripts-pkms/"
   url "https://github.com/Zejnilovic/scripts-pkms/releases/download/v0.1.0/pkm-0.1.0.tar.gz"
   sha256 "d1f37d49f214cc062ecdbc83157916f07f44591a0a88f213ba586d47e0b0ef71"
   license "MIT"
 
-  depends_on "ripgrep"
   depends_on "jq"
+  depends_on "ripgrep"
 
   def install
     libexec.install "bin", "lib", "share", "VERSION"
