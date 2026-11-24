@@ -4,8 +4,8 @@
 class Pkm < Formula
   desc "Command-line tool for Markdown vaults: day pages, tasks, links and the close"
   homepage "https://zejnilovic.github.io/scripts-pkms/"
-  url "https://github.com/Zejnilovic/scripts-pkms/releases/download/v0.10.0/pkm-0.10.0.tar.gz"
-  sha256 "1ce1c7c1b65d07f5fbc0b0258e9bc2127ac84c9dc936896eeb07e7b55f8dda89"
+  url "https://github.com/Zejnilovic/scripts-pkms/releases/download/v0.10.1/pkm-0.10.1.tar.gz"
+  sha256 "7b71bc77e4e6a8fe1019507d9234063915d136e8153df04df64222b3771e9fa1"
   license "MIT"
 
   depends_on "jq"
